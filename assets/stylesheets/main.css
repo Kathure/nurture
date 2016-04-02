@@ -71,6 +71,9 @@ div#slider figure {
 header
 ===========================
 */
+header {
+    bacc
+}
 
 .mainheader h1 {
     font-size: 40px;
@@ -126,6 +129,10 @@ main
 ==============================
 */
 
+main p b {
+    font-size: 25px;
+    font-weight: 650px;
+}
 main p {
     background-color: aliceblue;
     text-align: center;
