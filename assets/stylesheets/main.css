@@ -78,6 +78,29 @@ header
 }
 
 /*
+=========================
+nav bar
+=========================
+*/
+
+.links nav ul li a:hover {
+    background-color: lawngreen;
+    color: orange;
+}
+.links nav ul li {
+    border: 1px solid green;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: orange;
+    background-color: transparent;
+    margin-right: 30px;
+    float: right;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+/*
 ===========================
 four e's
 =============================
