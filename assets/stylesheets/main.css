@@ -1,7 +1,7 @@
 body {
     font-family: 'Poiret One', cursive;
     background-color: darkgray;
-    color: white;
+    color: purple;
 }
 h1,
 h2,
@@ -68,6 +68,73 @@ div#slider figure {
 
 /*
 ===========================
+header
+===========================
+*/
 
+.mainheader h1 {
+    font-size: 40px;
+    color: purple;
+}
+
+/*
+===========================
+four e's
 =============================
 */
+
+#base ul li {
+    list-style: none;
+    display: inline-block;
+    column-gap: normal;
+    padding: 0 1px 1px 2px;
+}
+#base h5 {
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #c5fc3f;
+    text-align: center;
+    font-family: 'Poiret one', cursive;
+}
+
+/*=======================
+main
+==============================
+*/
+
+main p {
+    background-color: aliceblue;
+    text-align: center;
+    align-content: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/*
+===============================
+footer
+=================================
+*/
+
+footer p {
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    padding: inherit;
+    text-align: center;
+}
+.share ul li {
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    padding: 0 3px 0 3px;
+}
+.share img {
+    height: 42px;
+}
+small {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
