@@ -1,5 +1,11 @@
 body {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', sans-serif;
+}
+row {
+    max-width: 1350px;
+}
+.mainheader {
+    background-image: url(../images/b3.png);
 }
 
 /*
@@ -18,12 +24,11 @@ nav bar
 .menu {
     font-size: 20px;
     font-weight: 400;
-}
-.menu li img {
-    /*    padding-right: 30%;*/
+    background-color: #6239AB;
+    opacity: 0.6;
 }
 .menu a {
-    color: #EAFFDA;
+    color: #000;
 }
 
 /*
