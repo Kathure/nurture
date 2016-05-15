@@ -1,19 +1,11 @@
 body {
     font-family: 'Poiret One', sans-serif;
 }
-row {
-    max-width: 1350px;
-}
-.mainheader {
+.landing {
     background-image: url(../images/b3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-/*
-=========================
-mainheader
-=========================
-*/
-
 
 /*
 =========================
@@ -28,7 +20,29 @@ nav bar
     opacity: 0.6;
 }
 .menu a {
-    color: #000;
+    color: #fff;
+}
+
+/*
+=========================
+titlecontent
+=========================
+*/
+
+.titly {
+    padding: 20% 20% 20% 20%;
+}
+.titly h3 {
+    font-size: 4rem;
+    color: #6A7FDB;
+    font-weight: 800;
+    text-align: center;
+}
+.titly p {
+    font-size: 2rem;
+    color: #6A7FDB;
+    font-weight: 100;
+    text-align: center;
 }
 
 /*
