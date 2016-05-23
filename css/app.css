@@ -13,13 +13,14 @@ nav bar
 */
 
     .menu {
-        font-size: 20px;
+        font-size: 1.5rem;
         font-weight: 400;
         background-color: #6239AB;
         opacity: 0.6;
     }
     .menu a {
         color: #fff;
+        float: right;
     }
     /*
 =========================
